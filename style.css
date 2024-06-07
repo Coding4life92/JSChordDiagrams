@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1100px;
+  margin: 100px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+canvas {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+#chordTitle {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.button-container {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+
+.btn {
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: rgb(85, 178, 232);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover, .active {
+  opacity: .8;
+}
